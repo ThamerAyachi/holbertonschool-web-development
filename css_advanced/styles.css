@@ -54,7 +54,8 @@ section:nth-child(1) div:nth-child(1) h1 {
     word-spacing: 60px;
 }
 
-section:nth-child(1) div:nth-child(1) button {
+/* section:nth-child(1) div:nth-child(1) button { */
+button {
     background-color: #c271ff;
     color: white;
     padding: 10px 20px;
@@ -216,3 +217,59 @@ section:nth-child(3) h1 span {
 }
 
 /* End third section */
+
+/* Start membership section */
+
+section:nth-child(4) {
+    text-align: center;
+    background-color: #071629;
+    color: white;
+}
+
+section:nth-child(4) h1 {
+    padding: 50px 0;
+    font-weight: 300;
+}
+
+section:nth-child(4) h1 span {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+section:nth-child(4) div {
+    display: flex;
+    justify-content: space-around;
+}
+
+section:nth-child(4) div div,
+img,
+h2,
+p {
+    display: block;
+}
+
+section:nth-child(4) div div {
+    max-width: 257px;
+}
+
+section:nth-child(4) div div img {
+    text-align: center;
+    margin-left: 40%;
+}
+
+section:nth-child(4) div div h2 {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+section:nth-child(4) div div p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(221, 221, 221);
+}
+
+section:nth-child(4) button {
+    margin: 60px 0 50px 0;
+}
+
+/* End membership section */
