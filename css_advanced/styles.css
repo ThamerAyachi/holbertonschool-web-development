@@ -140,3 +140,79 @@ section:nth-child(2) img {
 }
 
 /* End Second section */
+
+/* Start third section */
+
+section:nth-child(3) {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+section:nth-child(3) h1 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+section:nth-child(3) h1 span {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+.vd-block {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.vd {
+    max-width: 255px;
+}
+
+.vd h2 {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.vd p {
+    color: #07162980;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.vd-author {
+    display: flex;
+    align-items: center;
+}
+
+.vd-author img {
+    width: 30px;
+}
+
+.vd-author h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #c271ff;
+}
+
+.vd-rat {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.vd-rat div img {
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+}
+
+.vd-rat div {
+    display: flex;
+}
+
+.vd-rat p {
+    color: #c271ff;
+}
+
+/* End third section */
